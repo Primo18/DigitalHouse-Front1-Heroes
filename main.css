@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header h4 {
+  background-color: #1cd1b0;
+  height: 30px;
+}
+.header h1 {
+  height: 100px;
+
+  background-color: #00669f;
+}
+
+.footer {
+  height: 40px;
+  color: white;
+  background-color: #00669f;
+}
+
+.main {
+  padding: 50px;
+}
+
+.card {
+  text-align: center;
+  background-color: #f3f3f3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 300px;
+  height: 500px;
+}
+
+.nameHero {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.infoHero {
+  padding: 25px;
+  font-size: 15px;
+}
+
+button {
+  background-color: #00669f;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100px;
+  cursor: pointer;
+}
