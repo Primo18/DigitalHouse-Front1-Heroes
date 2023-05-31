@@ -13,25 +13,33 @@ body {
   margin: 0;
 }
 
-.header h4 {
-  padding: 10px;
-  background-color: #1cd1b0;
-  height: 30px;
-}
-.header h1 {
-  padding: 10px;
-  height: 100px;
-  font-size: 40px;
-  font-weight: 400;
+.header {
+  text-align: center;
   background-color: #00669f;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
-.footer {
-  height: fit-content;
+.header h4,
+.header h1 {
   padding: 10px;
   color: white;
+}
+
+.header h4 {
+  background-color: #1cd1b0;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: 400;
+  height: 100px;
+}
+
+.footer {
+  padding: 10px;
   background-color: #00669f;
+  color: white;
+  text-align: center;
 }
 
 .main {
@@ -47,8 +55,9 @@ body {
   margin: 10px;
   background-color: #f3f3f3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
   width: 300px;
-  height: fit-content;
+  height: auto;
   padding-bottom: 20px;
 }
 
@@ -63,11 +72,12 @@ body {
 
 .fondo_img img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
 }
 
 .hero_foto {
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
