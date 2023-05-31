@@ -55,7 +55,7 @@ body {
   margin: 10px;
   background-color: #f3f3f3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   width: 300px;
   height: auto;
   padding-bottom: 20px;
@@ -71,8 +71,7 @@ body {
 }
 
 .fondo_img img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
 .hero_foto {
